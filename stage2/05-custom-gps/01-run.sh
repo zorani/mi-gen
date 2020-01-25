@@ -5,7 +5,7 @@
 
 on_chroot << EOG
 
-apt-get install gpsd gpsd-clients python-gps
-apt-get install ntp
+apt-get install -y gpsd gpsd-clients python-gps
+apt-get install -y ntp
 
 EOG
